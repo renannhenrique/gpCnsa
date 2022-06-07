@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Gerar Pix</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maxium-scale=1.0">
+        <meta name="author" content="Renan">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;500&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/estilo.css">
+        <link rel="shortcut icon" href="">
+    </head>
+
+    <body>
+        <header class="top">
+            <div class="top-c">
+                <img src="assets/img/logo.png">
+            </div>
+        </header>
+        
+        <main>
+            <section class="formulario">
+                <header class="f-top">
+                    <h1>Gerar Pix</h1>
+                </header>
+
+                <div class="f-area">
+                    <form>
+                        <span class="f-ct">N° Orçamento</span><br/>
+                        <input type="number" id="no"><br/><br/>
+
+                        <span class="f-ct">N° Vendedor</span><br/>
+                        <input type="number" id="nv"><br/><br/>
+
+                        <span class="f-ct">Data</span><br/>
+                        <input type="date" id="data"><br/><br/>
+
+                        <span class="f-ct">Valor</span><br/>
+                        <input type="text" id="valor" placeholder="Ex: 10.384,90"><br/><br/>
+
+                        <span class="f-ct">Observações</span><br/>
+                        <textarea placeholder="Referente a..." id="obs"></textarea><br/><br/>
+
+                        <input type="submit" value="Enviar" id="btnSubmit">
+                    </form>
+                </div>
+            </section>
+
+            <div class="modal">
+                <div class="modal-c modal-grid">
+                    <div class="modal-item m-logo"><img src="assets/img/logo.png"></div>
+                    <div class="modal-item m-no">OS N°</div>
+                    <div class="modal-item m-nv">N° Vendedor</div>
+                    <div class="modal-item m-data">Data</div>
+                    <div class="modal-item m-valor">valor</div>
+                    <div class="modal-item m-obs">Observações</div>
+                    <div class="modal-item m-imprimir"><img src="assets/img/impressora.fw.png"></div>
+                </div>
+            </div>
+        </main>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
