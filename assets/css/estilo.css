@@ -90,9 +90,10 @@ main{
 .modal-c{
     background: yellow;
     width: 90%;
-    max-width: 250px;
+    max-width: 219px;
     text-align: center;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .modal-grid{
@@ -120,6 +121,7 @@ main{
 .m-no,
 .m-obs,
 .m-valor,
+.m-pix,
 .m-imprimir{
     grid-column: 1/3;
     
@@ -142,7 +144,8 @@ main{
 /*Estilos para impressão*/
 @media only print{
    .top,
-   .formulario{
+   .formulario,
+   .m-imprimir{
        display: none;
    }
 
