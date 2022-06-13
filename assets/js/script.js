@@ -58,5 +58,5 @@ document.querySelector('#btnSubmit').addEventListener('click', (e)=>{
 // Evento para fechar o botão do modal
 document.querySelector(".modal button").addEventListener("click", ()=>{
  
-        window.open('https://renannhenrique.github.io/gpcnsa/');
+        window.location.href = 'https://renannhenrique.github.io/gpcnsa/';
 });
