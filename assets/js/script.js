@@ -53,16 +53,10 @@ document.querySelector('#btnSubmit').addEventListener('click', (e)=>{
 
 });
 
-// Ambientes
-// local = http://localhost/Projetos/gerarPix-js/
-// desenvolvimento = https://renannhenrique.github.io/gpcnsa/
 
-let amb = 'https://renannhenrique.github.io/gpcnsa/';
 
 // Evento para fechar o botão do modal
 document.querySelector(".modal button").addEventListener("click", ()=>{
-    
-    if (amb) {
-         window.open('https://renannhenrique.github.io/gpcnsa/');
-    }
+ 
+        window.open('https://renannhenrique.github.io/gpcnsa/');
 });
