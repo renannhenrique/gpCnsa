@@ -63,8 +63,6 @@ let amb = 'https://renannhenrique.github.io/gpcnsa/';
 document.querySelector(".modal button").addEventListener("click", ()=>{
     
     if (amb) {
-        window.location.href = 'http://localhost/Projetos/gerarPix-js/';
-    }else{
-        window.open('https://renannhenrique.github.io/gpcnsa/');
+         window.open('https://renannhenrique.github.io/gpcnsa/');
     }
 });
