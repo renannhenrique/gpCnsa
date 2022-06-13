@@ -76,7 +76,7 @@ main{
 
 /*Modal*/
 .modal{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -87,10 +87,25 @@ main{
     align-items: center;
 }
 
+.modal button{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    border-radius: 50px;
+    border: 7px solid rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+}
+
 .modal-c{
     background: yellow;
     width: 90%;
-    max-width: 221px;
+    max-width: 219px;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
@@ -145,7 +160,8 @@ main{
 @media only print{
    .top,
    .formulario,
-   .m-imprimir{
+   .m-imprimir,
+   .modal button{
        display: none;
    }
 
