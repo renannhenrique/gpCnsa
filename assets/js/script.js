@@ -1,17 +1,3 @@
-// Algoritmo mostrarDados
-
-// iniciar o modal fechado
-// Ao clicar no botao de enviar
-// fazer com que o navegador nao atualize
-// verificar se foi enviado os seguintes dados: no, nv, valor e data 
-// se os dados estiverem ok 
-// abrir modal
-// Adicionar os dados enviados no modal
-// se foi enviado observação
-// adicionar todos os dados no modal
-// caso contrario não aparecer o campo no modal
-
-
 
 let modal = document.querySelector('.modal');
     modal.style.display = 'none';
@@ -71,13 +57,12 @@ document.querySelector('#btnSubmit').addEventListener('click', (e)=>{
 // local = http://localhost/Projetos/gerarPix-js/
 // desenvolvimento = https://renannhenrique.github.io/gpcnsa/
 
-let amb = 'http://localhost/Projetos/gerarPix-js/';
+let amb = 'https://renannhenrique.github.io/gpcnsa/';
 
 // Evento para fechar o botão do modal
 document.querySelector(".modal button").addEventListener("click", ()=>{
     
     if (amb) {
-       // open('http://localhost/Projetos/gerarPix-js/');
         window.location.href = 'http://localhost/Projetos/gerarPix-js/';
     }else{
         window.open('https://renannhenrique.github.io/gpcnsa/');
