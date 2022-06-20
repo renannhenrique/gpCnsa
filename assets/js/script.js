@@ -46,7 +46,7 @@ document.querySelector('#btnSubmit').addEventListener('click', (e)=>{
 
 
        }else{
-           alert("Prencha pelo menos os seguintes campos: Número orçamento, Número vendedor, data e valor!")
+           alert("Preencha pelo menos os seguintes campos: Número orçamento, Número vendedor, data e valor!")
        }
 
        
