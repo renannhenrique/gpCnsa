@@ -42,6 +42,9 @@ document.querySelector('#btnSubmit').addEventListener('click', (e)=>{
                 // Evento de click para impressão
                 document.querySelector('.modal .modal-c .m-imprimir').addEventListener('click', ()=>{
                     window.print();
+                    
+                     // Redirecionar o usuário para a página inicial
+                    window.location.href = "https://renannhenrique.github.io/gpcnsa/";
                 });
 
 
