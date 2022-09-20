@@ -28,7 +28,32 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
+.selecao{
+    padding: 20px 0px;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.selecao select{
+    width: 80%;
+    height: 50px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+
+.selecao input[type=submit]{
+    height: 50px;
+    padding: 0px 20px;
+    margin: 0px 10px;
+}
+
+
 
 .formulario{
     width: 90%;
@@ -141,9 +166,15 @@ main{
     
 }
 
+.m-tel{
+    grid-column: 1/3;
+}
+
 .m-data{
     vertical-align: middle;
 }
+
+
 
 .m-obs{
     word-wrap: break-word;

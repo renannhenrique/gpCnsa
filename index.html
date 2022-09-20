@@ -23,33 +23,22 @@
                 <img src="assets/img/logo.png">
             </div>
         </header>
+
         
         <main>
+
+            <div class="selecao">
+               <select id="campoSelect">
+                    <option selected="">Selecione</option>
+                    <option  name="option" value="gerarPix">Gerar pix</option>
+                    <option  name="option" value="cupom">Cupom</option>
+               </select>
+
+               <input type="submit" value="ok" id="acao">
+            </div><!--fim selecao-->
+
             <section class="formulario">
-                <header class="f-top">
-                    <h1>Gerar Pix</h1>
-                </header>
-
-                <div class="f-area">
-                    <form>
-                        <span class="f-ct">N° Orçamento</span><br/>
-                        <input type="number" id="no"><br/><br/>
-
-                        <span class="f-ct">N° Vendedor</span><br/>
-                        <input type="number" id="nv"><br/><br/>
-
-                        <span class="f-ct">Data</span><br/>
-                        <input type="date" id="data"><br/><br/>
-
-                        <span class="f-ct">Valor</span><br/>
-                        <input type="text" id="valor" placeholder="Ex: 10.384,90"><br/><br/>
-
-                        <span class="f-ct">Observações</span><br/>
-                        <textarea placeholder="Referente a..." id="obs"></textarea><br/><br/>
-
-                        <input type="submit" value="Enviar" id="btnSubmit">
-                    </form>
-                </div>
+                
             </section>
 
             <div class="modal">
@@ -60,6 +49,7 @@
                     <div class="modal-item m-no">OS N°</div>
                     <div class="modal-item m-nv">N° Vendedor</div>
                     <div class="modal-item m-data">Data</div>
+                    <div class="modal-item m-tel">Telefone</div>
                     <div class="modal-item m-valor">valor</div>
                     <div class="modal-item m-obs">Observações</div>
                     <div class="modal-item m-pix">PIX</div>
